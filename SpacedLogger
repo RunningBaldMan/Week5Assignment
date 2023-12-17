@@ -1,0 +1,24 @@
+package week5;
+
+public class SpacedLogger implements AssignmentLogger {
+
+	@Override
+	public void log(String log) {
+		for(char c : log.toCharArray()) {
+			System.out.println(c + " ");
+		}
+		System.out.println();
+		
+	}
+
+	@Override
+	public void error(String error) {
+		System.out.println("Error: ");
+		for (char c : error.toCharArray()) {
+			System.out.println(c + " ");
+		}
+		System.out.println();
+		
+	}
+
+}
