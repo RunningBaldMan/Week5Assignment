@@ -1,0 +1,15 @@
+package week5;
+
+public class App {
+
+	public static void main(String[] args) {
+		AssignmentLogger asteriskLogger = new AstriskLogger();
+		AssignmentLogger spacedLogger = new SpacedLogger();
+		
+		asteriskLogger.log("Hello");
+		
+		spacedLogger.log("Error");
+		
+	}
+
+}
